@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Mini market El poderoso</title>
+</head>
+
+
+<body>
+
+    <!-- ENCABEZADO Y MENU -->
+
+    <header class="main-header">
+        <a class="main-logo" href="#">
+            <img src="img/image.png"></img>
+        </a>
+        <nav id="nav" class="main-nav">
+            <div class="nav-links">
+                <a class="link-item" href="principal.html">Inicio</a>
+                <a class="link-item" href="#about">Sobre nosotros</a>
+                <a class="link-item" href="#listaProductos">Nuestras ofertas</a>
+                <a class="link-item" href="frmDomicilio.html">Domicilio</a>
+            </div>
+        </nav>
+        <button id="button-menu" class="button-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+
+    <!-- FORMULARIO -->
+    <section class="domicilio" id="domicilio">
+        <h1>Solicite su domicilio</h1>
+        <form action="#">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" placeholder="Nombre completo">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+                <input id="submit" name="submit" type="submit" value="Enviar">
+            </form>
+        </form>
+
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer id="main-footer">
+        <p>Minimarket &copy;. Todos los derechos de la pagina</p>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
